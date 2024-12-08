@@ -9,7 +9,7 @@ use App\Http\Controllers\TransportationsController;
 use App\Http\Controllers\DetailPembeliController;
 
 Route::get('/', function () {
-    return redirect()->route('pakets.index'); // Mengarahkan ke rute 'pakets.index'
+    return redirect()->route('dashboard');
 });
 
 
